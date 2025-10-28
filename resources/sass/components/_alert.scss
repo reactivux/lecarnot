@@ -1,0 +1,41 @@
+/* Add your custom styles here */
+.custom-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-alert {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.custom-alert-title {
+    margin: 0;
+    font-size: 1.125em;
+    color: $blackColor;
+}
+
+.custom-alert-text {
+    margin: 10px 0;
+    font-size: 16px;
+    color: $blackColor;
+}
+
+.custom-alert-button {
+    background-color: #3085d6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}

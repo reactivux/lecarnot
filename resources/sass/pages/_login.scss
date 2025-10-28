@@ -1,0 +1,169 @@
+.tf__signin {
+    background: $bodyBgColor;
+}
+
+.tf__login_area {
+    overflow: hidden;
+    position: relative;
+
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    padding: 50px;
+
+    h2 {
+        font-weight: 700;
+        font-size: 22px;
+        color: $whiteColor;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    p {
+        color: $whiteColor ;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+    form {
+        input {
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+
+        // button {
+        //     width: 100%;
+        //     text-align: center;
+        //     padding: 10px 25px !important;
+        // }
+    }
+
+    .form-check {
+        input {
+            padding: 0px;
+            border: 1px solid $PrimaryColor;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+
+            &:checked {
+                background-color: $PrimaryColor;
+                border-color: $PrimaryColor;
+            }
+        }
+
+        label {
+            color: #484747;
+            margin: 0px;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 1px;
+        }
+    }
+
+    .or {
+        position: relative;
+        margin: 20px 0px 30px;
+
+        span {
+            text-transform: uppercase;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            background: $PrimaryColor;
+            background: #f3f7fb;
+            font-size: 12px;
+            font-weight: 800;
+            text-align: center;
+            line-height: 29px;
+            color: $PrimaryColor;
+            border: 1px solid $PrimaryColor;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        &::after {
+            position: absolute;
+            content: "";
+            background: $PrimaryColor;
+            width: 98%;
+            height: 1px;
+            top: 50%;
+            right: 0px;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+        }
+    }
+
+    ul {
+        justify-content: center;
+
+        li {
+            a {
+                width: 35px;
+                height: 35px;
+                background: $PrimaryColor;
+                color: #ffffff;
+                text-align: center;
+                line-height: 35px;
+                border-radius: 50%;
+                margin-right: 5px;
+                font-size: 14px;
+                border: 1px solid transparent;
+                transition: all 0.3s linear 0s;
+                -webkit-transition: all 0.3s linear 0s;
+                -moz-transition: all 0.3s linear 0s;
+                -ms-transition: all 0.3s linear 0s;
+                -o-transition: all 0.3s linear 0s;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+
+                &:hover {
+                    background: $blackColor;
+                }
+            }
+        }
+    }
+
+    .create_account {
+        margin-top: 30px;
+        // color: $whiteColor;
+        margin-bottom: 0px;
+
+        a {
+            color: $PrimaryColor;
+            font-weight: 500;
+            transition: all 0.3s linear 0s;
+            -webkit-transition: all 0.3s linear 0s;
+            -moz-transition: all 0.3s linear 0s;
+            -ms-transition: all 0.3s linear 0s;
+            -o-transition: all 0.3s linear 0s;
+
+            &:hover {
+                color: $SecondaryColor;
+            }
+        }
+    }
+}
+
+
+
+.form-check-input {
+    &:focus {
+        box-shadow: none;
+    }
+}

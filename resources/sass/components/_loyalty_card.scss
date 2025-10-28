@@ -1,0 +1,60 @@
+/*** Carte de fidélité **/
+.loyalty-card {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $SecondaryColor !important;
+    padding: 25px;
+    color: $whiteColor;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+}
+
+.reward {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    flex: 1 1 8%;
+    margin: 4px;
+    justify-content: center;
+    color: #fff;
+    border-radius: 4px;
+    background: #dfdfdf;
+}
+
+.reward .checked::before {
+    content: "✓" !important;
+    color: $whiteColor !important;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.reward.checked {
+    background: $PrimaryColor;
+}
+
+.primary-color {
+    color: $PrimaryColor !important;
+}
+
+@media only screen and (max-width: 522px) {
+    .reward {
+        flex: 1 1 15% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .reward {
+        flex: 1 1 15% !important;
+    }
+}
+
+/*** Carte de fidélité **/

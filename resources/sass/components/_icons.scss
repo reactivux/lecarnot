@@ -1,0 +1,289 @@
+/*List icons add to another file */
+
+
+.mr-0-auto {
+    margin: 0 auto;
+}
+
+.icon {
+
+    /**social media*/
+    &-social-media {
+        content: '';
+        width: 25px;
+        height: 25px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        transform: translateY(0);
+        transition: color 0.32s cubic-bezier(.22, .61, .36, 1);
+        color: $socialMediaIconsColor;
+    }
+
+    &-instagram {
+        mask: url("../../../public/svg/instagram.svg");
+        -webkit-mask: url("../../../public/svg/instagram.svg");
+    }
+
+    &-facebook {
+        mask: url("../../../public/svg/facebook_black.svg");
+        -webkit-mask: url("../../../public/svg/facebook_black.svg");
+    }
+
+    &-black.instagram {
+        mask: url("../../../public/svg/instagram_black.svg") !important;
+        -webkit-mask: url("../../../public/svg/instagram_black.svg") !important;
+    }
+
+    &-black.facebook {
+        mask: url("../../../public/svg/facebook_black.svg") !important;
+        -webkit-mask: url("../../../public/svg/facebook_black.svg") !important;
+    }
+
+    /**end social media*/
+    /** footer*/
+    &-footer {
+        content: '';
+        width: 45px;
+        height: 45px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $footerIconsColor;
+        margin-bottom: 20px;
+    }
+
+    &-contact {
+        content: "";
+        width: 29px;
+        height: 29px;
+        display: block;
+        -webkit-mask-repeat: no-repeat !important;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $ContactItemIconColor;
+    }
+
+    &-location {
+
+        mask: url("../../../public/svg/location.svg");
+        -webkit-mask: url("../../../public/svg/location.svg");
+    }
+
+    &-phone {
+        mask: url("../../../public/svg/phone.svg");
+        -webkit-mask: url("../../../public/svg/phone.svg");
+    }
+
+    &-social {
+        mask: url("../../../public/svg/socialmedia.svg");
+        -webkit-mask: url("../../../public/svg/socialmedia.svg");
+    }
+
+    /** end footer */
+
+    /***services */
+    &-services {
+        content: '';
+        width: 60px;
+        height: 60px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        transform: translateY(0);
+        transition: color 0.32s cubic-bezier(.22, .61, .36, 1);
+        color: $servicesIconsColor;
+    }
+
+    &-quality {
+        mask: url("../../../public/svg/quality.svg") no-repeat center / contain;
+        -webkit-mask: url("../../../public/svg/quality.svg") no-repeat center / contain;
+    }
+
+    &-speed {
+        mask: url("../../../public/svg/time-check.svg") no-repeat center / contain;
+        -webkit-mask: url("../../../public/svg/time-check.svg") no-repeat center / contain;
+    }
+
+    &-accessibility {
+        mask: url("../../../public/svg/food-dish-hand.svg") no-repeat center / contain;
+        -webkit-mask: url("../../../public/svg/food-dish-hand.svg") no-repeat center / contain;
+    }
+
+    &-delivery {
+        mask: url("../../../public/svg/delivery.svg") no-repeat center / contain;
+        -webkit-mask: url("../../../public/svg/delivery.svg") no-repeat center / contain;
+    }
+
+    /***end services */
+    /**crud icon edit, delete add, default*/
+    &-crud {
+        justify-content: center;
+        align-items: center;
+        content: '';
+        width: 16px;
+        height: 16px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $crudIconsColor;
+    }
+
+    &-edit {
+        mask: url("../../../public/svg/edit.svg");
+        -webkit-mask: url("../../../public/svg/edit.svg");
+    }
+
+    &-default {
+        mask: url("../../../public/svg/check.svg");
+        -webkit-mask: url("../../../public/svg/check.svg");
+    }
+
+    &-delete {
+        mask: url("../../../public/svg/delete.svg");
+        -webkit-mask: url("../../../public/svg/delete.svg");
+    }
+
+    /** end crud icons */
+
+    /**navbar icons */
+    &-navbar-desktop {
+        cursor: pointer;
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+       // color: $navbarDesktopIconsColor;
+    }
+
+    &-navbar-mobile {
+        cursor: pointer;
+        content: "";
+        width: 28px;
+        height: 28px;
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $navbarMobileIconsColor;
+    }
+
+    &-user {
+        mask: url("../../../public/svg/user.svg");
+        -webkit-mask: url("../../../public/svg/user.svg");
+    }
+
+    &-burger_menu {
+        mask: url("../../../public/svg/burger_menu.svg");
+        -webkit-mask: url("../../../public/svg/burger_menu.svg");
+
+    }
+
+    &-cart {
+        mask: url("../../../public/svg/cart.svg");
+        -webkit-mask: url("../../../public/svg/cart.svg");
+    }
+
+    /**end nav bar icons*/
+
+    &-close {
+        content: '';
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+        mask: url("../../../public/svg/close.svg");
+        -webkit-mask: url("../../../public/svg/close.svg");
+        content: '';
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $closeIconsColor;
+    }
+
+    &-read-more {
+        content: '';
+        width: 25px;
+        height: 25px;
+        margin: 0 auto;
+        mask: url("../../../public/svg/info.svg");
+        -webkit-mask: url("../../../public/svg/info.svg");
+        content: '';
+        display: block;
+        mask-repeat: no-repeat !important;
+        background-color: currentColor;
+        color: $readMoreIconsColor;
+    }
+}
+
+
+
+
+
+/**** SVG ****/
+.icon_valide:before {
+    content: '';
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background-repeat: no-repeat !important;
+    background: url("../../../public/svg/done.svg");
+    display: block;
+}
+
+
+
+
+
+
+
+.tf__scroll_btn:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat !important;
+    background: url("../../../public/svg/handTop.svg");
+}
+
+
+.tf__pagination .page-link.activated {
+    background: $PrimaryColor;
+    border: none;
+    color: #fff !important;
+}
+
+.tf__pagination .page-link.first_last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tf__pagination .page-link.first_last:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat !important;
+}
+
+.tf__pagination .page-link.first_last.prev:before {
+    background: url("../../../public/svg/arrow_prev.svg");
+}
+
+.tf__pagination .page-link.first_last.next:before {
+    background: url("../../../public/svg/arrow_next.svg");
+}
+
+
+@media only screen and (max-width : 991px) {
+    .cart_icon.cart:before {
+        filter: invert(100%);
+    }
+
+    .cart_icon.burger_menu:before {
+        filter: invert(100%);
+    }
+}

@@ -1,0 +1,59 @@
+.custom-toast {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    transform: translateX(-10%);
+    background-color: #fff;
+    color: #1d1d1d;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 1;
+    z-index: 9999;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    width: 360px;
+    overflow: hidden;
+}
+
+.progress-bar.success {
+    background-color: #42c046;
+}
+
+.progress-bar.error {
+    background-color: rgb(245, 31, 31);
+}
+
+.progress-bar.warning {
+    background-color: rgb(212, 142, 11);
+}
+
+
+.custom-toast-message {
+    margin-right: 30px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.progress-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #f1f1f1;
+}
+
+.progress-bar {
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.hideToast {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hideToast span {
+    font-weight: 600;
+
+}

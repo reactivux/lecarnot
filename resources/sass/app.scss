@@ -1,0 +1,46 @@
+//@import "variable_dark_mode";
+@import "variable_light_mode";
+@import'bootstrap.min.scss';
+@import'responsive.scss';
+@import'spacing.scss';
+@import'style.scss';
+/** new*/
+@import 'pizzamama.scss';
+/** 
+*Componennts 
+**/
+@import'components/nice-select.scss';
+@import 'components/breadcrumb.scss';
+@import 'components/navbar.scss';
+@import 'components/footer.scss';
+@import 'components/button.scss';
+@import 'components/heading.scss';
+@import 'components/icons.scss';
+@import 'components/pagination.scss';
+@import 'components/alert.scss';
+@import 'components/modal.scss';
+@import 'components/search_delivery.scss';
+@import 'components/404.scss';
+@import 'components/products.scss';
+@import 'components/categories.scss';
+@import 'components/openning_times.scss';
+@import 'components/tables.scss';
+@import 'components/loyalty_card.scss';
+@import 'components/planified_input.scss';
+@import 'components/addtocart.scss';
+@import 'components/cart.scss';
+@import 'components/promotions.scss';
+@import 'components/box.scss';
+@import 'components/swiper.scss';
+@import'components/spacing.scss';
+@import'components/slider.scss';
+@import'components/toast.scss';
+/**
+Pages 
+**/
+@import 'pages/login.scss';
+@import 'pages/invoice.scss';
+@import 'pages/delivery_addresses.scss';
+@import 'pages/products.scss';
+@import 'pages/order.scss';
+@import 'pages/checkout.scss';

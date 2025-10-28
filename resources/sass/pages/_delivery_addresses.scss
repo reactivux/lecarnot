@@ -1,0 +1,28 @@
+/** Page Delivery addresse **/
+.error-danger {
+    color: $colorError;
+    font-size: 12px;
+}
+
+.google-addresses {
+    background-color: #f3f7fb;
+    text-align: start;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ececec;
+}
+
+.search-items {
+    padding: 10px;
+    font-size: 14px;
+    display: inline-block;
+    color: $blackColor !important;
+    width: 100%;
+}
+
+.search-items:hover {
+    background-color: $PrimaryColor !important;
+    color: $whiteColor !important;
+}
+
+/** end Page Delivery addresse **/

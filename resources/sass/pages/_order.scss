@@ -1,0 +1,111 @@
+
+.order-status {
+    background-color: #fcf04b;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 22px;
+}
+.tf_dashboard_order {
+    table {
+        border-radius: 5px;
+        overflow: hidden;
+        margin: 0px;
+        background: $TableBgColor;
+        color: $TableTextColor;
+        width: 100% !important;
+
+        tr {
+            border-color: transparent;
+            display: flex;
+            border-top: 1px solid #ddd;
+
+            th {
+                background: $PrimaryColor;
+                font-size: 14px;
+                font-weight: 500;
+                color: $whiteColor !important;
+                text-align: left;
+                padding: 10px;
+                width: 100%;
+            }
+
+            td {
+                font-size: 14px;
+                font-weight: 400;
+                text-align: left;
+                padding: 10px;
+                width: 100%;
+
+                h5 {
+                    color: #0b0b0e;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                p {
+                    margin: 0px;
+                }
+
+                a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding: 6px 15px 5px 15px;
+
+                }
+
+                span {
+                    &.status {
+                        border-radius: 30px;
+                        padding: 5px 10px;
+                        display: inline-block;
+                        text-align: center;
+                        -webkit-border-radius: 30px;
+                        -moz-border-radius: 30px;
+                        -ms-border-radius: 30px;
+                        -o-border-radius: 30px;
+                        font-size: 13px;
+                    }
+
+                    &.subproduct {
+                        color: $blackColor !important;
+                    }
+                }
+
+                .delivered {
+                    background: $statusBgColor;
+                    color: $delivered;
+                }
+
+                .canceled {
+                    background: $statusBgColor;
+                    color: $canceled;
+                }
+
+                .accepted {
+                    background: $statusBgColor;
+                    color: $accepted;
+                }
+
+                .pending {
+                    background: $statusBgColor;
+                    color: $pending;
+                }
+            }
+        }
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                background-color: $TableHoverBgColor;
+            }
+        }
+    }
+}
+
+
+.tf_dashboard_order table tr.unread td,
+.tf_dashboard_order table tr.unread td span {
+    font-weight: 800 !important;
+}

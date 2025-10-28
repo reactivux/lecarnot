@@ -1,0 +1,700 @@
+{
+    "layouts": {
+        "footer": {
+            "social": {
+                "title": "Suivez-nous",
+                "media": {
+                    "facebook": "link",
+                    "instagram": "link"
+                }
+            },
+            "copyrigth": "© 2024 - Flash Pizza ",
+            "createdby": {
+                "title": "Réalisé par ",
+                "link": "reactivux.com"
+            }
+        }
+    },
+    "header": {
+        "home": "Accueil",
+        "products": "Produits",
+        "orders": "Commandes",
+        "addresses": "Adresses de livraison",
+        "contact": "Contactez-nous",
+        "signin": "Se connecter",
+        "dropdowns": {
+            "carts": {
+                "title": "Panier",
+                "description": "Vous n'avez pas encore ajouté d'articles à votre panier.",
+                "subtotal": "Sous-Total",
+                "total": "Total",
+                "fees": "Frais de livraison",
+                "button": "Commandez maintenant"
+            },
+            "profile": {
+                "hey": "Bonjour, :username",
+                "userInfos": {
+                    "name": "Nom",
+                    "phone": "Téléphone",
+                    "email": "E-mail",
+                    "password": "Mot de passe"
+                },
+                "logout": "Déconnexion"
+            }
+        }
+    },
+    "components": {
+        "layouts": {
+            "footer": {
+                "location": {
+                    "title": "Adresse",
+                    "adresse": " 2 Rue Carnot, 27110 Le Neubourg, France "
+                },
+                "phone": {
+                    "title": "Téléphone",
+                    "number": "+33 2 78 98 93 68"
+                },
+                "social": {
+                    "title": "Suivez-nous",
+                    "media": {
+                        "facebook": "#",
+                        "instagram": "#"
+                    }
+                },
+                "copyrigth": "© 2024 - Flash Pizza ",
+                "createdby": {
+                    "title": "Réalisé par ",
+                    "link": "reactivux.com"
+                }
+            }
+        },
+        "pages": {
+            "auth": {
+                "signin": {
+                    "meta": {
+                        "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                        "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                    },
+                    "form": {
+                        "title": "Bienvenue de nouveau !",
+                        "subtitle": "Connectez-vous ici",
+                        "elements": {
+                            "email": "Email",
+                            "password": "Mot de passe",
+                            "button": "Je me connecte"
+                        },
+                        "createaccount": {
+                            "title": "Vous n'avez pas encore de compte ?",
+                            "button": "Créez-en un maintenant ! "
+                        }
+                    }
+                },
+                "signup": {
+                    "meta": {
+                        "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                        "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                    },
+                    "form": {
+                        "title": "Rejoignez-nous dès maintenant !",
+                        "subtitle": "Inscrivez-vous pour continuer",
+                        "elements": {
+                            "email": "Email",
+                            "firstname": "Prénom",
+                            "lastname": "Nom",
+                            "phone": "Téléphone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "button": "Je m'inscris"
+                        },
+                        "alreadyhaveaccount": {
+                            "title": "Déjà membre ?",
+                            "button": "Connectez-vous ici"
+                        }
+                    }
+                },
+                "success": {
+                    "meta": {
+                        "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                        "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                    },
+                    "titre": "Inscription réussie !",
+                    "subtitle": "Veuillez vérifier votre boîte e-mail afin de valider votre inscription."
+                },
+                "verify": {
+                    "meta": {
+                        "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                        "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                    },
+                    "titre": "Votre compte à été vérifié",
+                    "subtitle": "Connectez-vous ici"
+                }
+            },
+            "home": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                },
+                "bestCategories": {
+                    "subtitle": "Toutes nos catégories",
+                    "title": "Une variété alléchante de délices à déguster",
+                    "cta": "Voir menu"
+                },
+                "howItWorks": {
+                    "subtitle": "Commander chez nous, c'est simple comme bonjour !",
+                    "title": "Comment ça marche? ",
+                    "steps": {
+                        "step_1": {
+                            "title": "Choisissez vos délices",
+                            "description": "Parcourez notre menu alléchant et laissez-vous tenter par nos délicieuses options. Faites votre choix, tout est à portée de clic !"
+                        },
+                        "step_2": {
+                            "title": "Passez votre commande et payez",
+                            "description": " Une fois que vous avez sélectionné vos repas préférés, passez commande en quelques instants. Nous serons toujours prêts à vous servir "
+                        },
+                        "step_3": {
+                            "title": "Détendez-vous pendant la préparation",
+                            "description": " Notre équipe talentueuse se met immédiatement au travail pour préparer vos plats avec soin et précision. Vous n'avez qu'à attendre confortablement chez vous !"
+                        },
+                        "step_4": {
+                            "title": "Livraison à votre porte ",
+                            "description": "  Dès que votre commande est prête, notre service de livraison fiable et rapide entre en action. Votre repas arrivera à votre porte en un rien de temps "
+                        }
+                    }
+                },
+                "NosValeur": {
+                    "subtitle": "Commander chez nous, c'est simple comme bonjour !",
+                    "title": "Comment ça marche? ",
+                    "steps": {
+                        "step_1": {
+                            "title": "Qualité",
+                            "description": " Chez Flash Pizza, nous accordons une grande importance à la qualité de nos plats et des ingrédients que nous utilisons. "
+                        },
+                        "step_2": {
+                            "title": "Rapidité",
+                            "description": " Nous comprenons l'importance d'un service rapide pour répondre aux attentes de nos clients actifs et pressés. "
+                        },
+                        "step_3": {
+                            "title": "Accessibilité",
+                            "description": " Nous avons à cœur de rendre notre cuisine rapide accessible à un large public. "
+                        }
+                    }
+                },
+                "about": {
+                    "title": "À la Rencontre des Saveurs Authentiques",
+                    "subtitle": "A propos",
+                    "description": " Bienvenue chez Flash Pizza, votre destination incontournable pour une expérience culinaire rapide et délicieuse. Fondé avec passion, notre restaurant de fast food est né de l'envie de proposer des plats savoureux, préparés avec amour et soin. "
+                },
+                "contact": {
+                    "button": "CONTACTEZ-NOUS",
+                    "title": "Contactez-nous pour plus d’informations.",
+                    "paragraph": "Meilleure expérience pour vous & Votre famille. Devenez franchisé!"
+                }
+            },
+            "store": {
+                "meta": {
+                    "title": "Flash Pizza - Menu Fast Food Varié et Délicieux en Livraison",
+                    "description": "Découvrez notre délicieux menu chez Flash Pizza. Des options alléchantes, préparées avec soin, et livrées rapidement à votre porte. Commandez dès maintenant !"
+                },
+                "header": {
+                    "modeNotAvaliable": {
+                        "closed": "Restaurant fermé",
+                        "liv": "Livraison non disponible ",
+                        "cac": "Click & Collect non disponible ",
+                        "at_place": "Sur place non disponible "
+                    },
+                    "modeAvaliable": {
+                        "liv": "Livraison disponible",
+                        "cac": "Click & Collect disponible ",
+                        "at_place": "Sur place disponible "
+                    },
+                    "moreinfos": {
+                        "worktimes": {
+                            "title": "Nos horaires d'ouverture",
+                            "deliverymode": {
+                                "cac": "Click & Collect",
+                                "liv": "Livraison",
+                                "at_place": "Horaires d'ouverture"
+                            }
+                        }
+                    }
+                },
+                "content": {
+                    "category": {
+                        "product": {
+                            "modal_add_to_cart": {
+                                "required": "Obligatoire",
+                                "button": {
+                                    "add_to_cart": "Ajouter :qte_product pour ",
+                                    "update_cart": "Modifier :qte_product pour "
+                                }
+                            }
+                        }
+                    }
+                },
+                "cart": {
+                    "title": "Votre panier",
+                    "description": "Panier vide. Vous pouvez commencer à ajouter des produits.",
+                    "subtotal": "Sous-Total",
+                    "loyalty": "Réduction carte fidélité",
+                    "promocode": "Code promo",
+                    "promotions": "Promotions",
+                    "total": "Total",
+                    "fees": "Frais de livraison",
+                    "button": "Commandez maintenant"
+                },
+                "Loyaltycard": {
+                    "title": " Les bonnes affaires ! ",
+                    "subtitle": " Obtenez :percentage % sur votre :nb_orders ème commande "
+                },
+                "searchBar": {
+                    "input": {
+                        "placeholder": "Recherche par catégorie ou produit"
+                    },
+                    "deliverymode": {
+                        "cac": "Click and collect",
+                        "liv": "Livraison",
+                        "atplace": "Sur place"
+                    }
+                }
+            },
+            "orders": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                },
+                "header": {
+                    "permalink": {
+                        "home": "Accueil",
+                        "order": "commandes"
+                    },
+                    "title": "Historique des commandes"
+                },
+                "title": "Historique des commandes",
+                "table": {
+                    "number": "N° Commande",
+                    "date": "Date",
+                    "delivery": "Livraison",
+                    "status": "État",
+                    "total": "Total",
+                    "payement": "Paiement",
+                    "action": "Action"
+                }
+            },
+            "details_order": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                },
+                "header": {
+                    "permalink": {
+                        "home": "Accueil",
+                        "details_order": "détails"
+                    },
+                    "title": "Details commande N° :num"
+                },
+                "info_user": {
+                    "title": "Informations personnelles"
+                },
+                "details": {
+                    "storename": "Restaurant ",
+                    "date": "Date de la commande",
+                    "delivery_type": "Mode choisi",
+                    "payement": {
+                        "title": "Paiement",
+                        "type": {
+                            "caisse": "À la caisse",
+                            "livraison": "À la livraison",
+                            "effectue": "Effectué"
+                        }
+                    },
+                    "status": "État"
+                },
+                "table": {
+                    "prodcutname": "Produits",
+                    "total": "Total",
+                    "UnitePrice": "Prix unitaire"
+                },
+                "comment": "Commentaire",
+                "amount": {
+                    "TotalAmount": "Total à payer",
+                    "deliveryFees": "Frais de Livraison",
+                    "promoCode": "Code promo "
+                }
+            },
+            "delivery_addresses": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                },
+                "header": {
+                    "permalink": {
+                        "home": "Accueil",
+                        "addresse": "Adresse"
+                    },
+                    "title": "Vos adresses de livraison"
+                },
+                "title": "List des adresses",
+                "form": {
+                    "add": "Nouvelle adresse de livraison",
+                    "edit": "Modifier votre adresse",
+                    "address": "Adresse",
+                    "firstname": "Prénom",
+                    "lastname": "Nom",
+                    "phone": "Téléphone",
+                    "buttonadd": "Ajouter",
+                    "buttonedit": "Modifier"
+                }
+            },
+            "checkout": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                }
+            },
+            "order_sent": {
+                "meta": {
+                    "title": "Flash Pizza - Burgers, Frites & Plus - Livraison Rapide",
+                    "description": "Découvrez le plaisir du fast-food chez Flash. Savourez nos délicieux burgers, frites croustillantes et bien plus encore. Commandez en ligne dès pour une livraison rapide !"
+                }
+            },
+            "contact": {
+                "meta": {
+                    "title": "Contactez-nous - Flash Pizza - Votre Satisfaction est Notre Priorité !",
+                    "description": "Nous sommes là pour vous ! Contactez-nous chez Flash Pizza pour toute question, suggestion ou assistance. Notre équipe dévouée est prête à répondre à vos besoins."
+                }
+            }
+        }
+    },
+    "opening": {
+        "closed": "Fermé",
+        "day": {
+            "today": "Aujourd'hui",
+            "Today": "Aujourd'hui",
+            "Sunday": "Dimanche",
+            "Monday": "Lundi",
+            "Tuesday": "Mardi",
+            "Wednesday": "Mercredi",
+            "Thursday": "Jeudi",
+            "Friday": "Vendredi",
+            "Saturday": "Samedi"
+        },
+        "days": {
+            "today": "Aujourd'hui",
+            "Today": "Aujourd'hui",
+            "Dimanche": "Dimanche",
+            "Lundi": "Lundi",
+            "Mardi": "Mardi",
+            "Mercredi": "Mercredi",
+            "Jeudi": "Jeudi",
+            "Vendredi": "Vendredi",
+            "Samedi": "Samedi"
+        },
+        "title": ":indique :day à partir de :time"
+    },
+    "currency": {
+        "price": ":price €"
+    },
+    "order_status": {
+        "pending": "En attente",
+        "accepted": "Accepté",
+        "canceled": "Annulé"
+    },
+    "notification": {
+        "product": {
+            "add": "Produit ajouté avec succès à votre panier",
+            "delete": "Le produit a été retiré dans votre panier",
+            "remove": "Certains produits a été retiré dans votre panier"
+        },
+        "address": {
+            "add": "Adresse ajouté avec succès",
+            "edit": "Adresse modifié avec succès",
+            "delete": "Adresse supprimée avec succès"
+        },
+        "user": {
+            "add": "Votre profile ajouté avec succès",
+            "edit": "Votre profile modifié avec succès",
+            "delete": "Votre profile supprimée avec succès"
+        },
+        "added": ":champ ajoutée avec succès",
+        "deleted": ":champ supprimée avec succès",
+        "updated": ":champ modifié avec succès",
+        "default": ":champ modifié avec succès",
+        "connexion": "Problème de connexion",
+        "codepromo": {
+            "valide": "Appliqué",
+            "incorrect": "Code promo n'existe pas"
+        },
+        "business": {
+            "valide": "Merci pour votre inscription ! Vous serez recontacté dans quelques heurs par l'un de nos agents",
+            "incorrect": "Code promo n'existe pas"
+        }
+    },
+    "alerts": {
+        "productsToDelete": {
+            "title": "Êtes-vous sûr ?",
+            "text": "En basculant vers un autre mode de livraison vous risquez de supprimer certains produits",
+            "error": ""
+        },
+        "delivery_type": {
+            "not_found": "Mode de livraison introuvable"
+        },
+        "add": {
+            "title": "Vous êtes sûr de vouloir ajout ?",
+            "text": "",
+            "error": "",
+            "success": "L’opération est effectuée avec succès"
+        },
+        "delete": {
+            "title": "Étes-vous sûr de vouloir supprimer cette :champ ? ",
+            "text": "",
+            "error": "",
+            "success": "La suppression a réussi"
+        },
+        "edit": {
+            "title": "Vous êtes sûr de vouloir modifier ?",
+            "text": "",
+            "error": "",
+            "success": "La modification a réussi"
+        },
+        "default_address": {
+            "title": "Êtes-vous sûr ?",
+            "text": "Cette adresse deviendra votre nouvelle adresse par défaut",
+            "error": "",
+            "success": "La modification a réussi"
+        },
+        "aucune_info": "Aucune information à afficher.",
+        "permission": "Vous n'êtes pas autorisé à naviguer sur cette page",
+        "beforeOrder": {
+            "closed": "Restaurant fermé",
+            "deliveryMode": {
+                "liv": {
+                    "min": "La livraison est disponible à partir d'un minimum de commande de :min €",
+                    "isOrder": "Livraison non disponible"
+                },
+                "cac": {
+                    "min": "Click and collect est disponible à partir d'un minimum de commande de :min €",
+                    "isOrder": "Click and collect non disponible"
+                },
+                "at_place": {
+                    "min": "Sur place est disponible à partir d'un minimum de commande de :min €",
+                    "isOrder": "Sur place non disponible"
+                }
+            }
+        }
+    },
+    "button": {
+        "payement_at_checkout": "Paiement en espèce",
+        "click_collect": "Click & Collect",
+        "delivery": "Livraison",
+        "at_place": "Sur place",
+        "add_to_wishlist": "Ajouter aux favoris",
+        "delete_from_wishlist": "Supprimer des favoris",
+        "order_now": "Commandez maintenant",
+        "add_to_cart": "Ajouter :qte_product pour :product_price €",
+        "edit_item_from_cart": "Modifier :qte_product pour :product_price €",
+        "payer": "Commandez maintenant",
+        "save": "Enregistrer",
+        "send": "Envoyer",
+        "add": "Ajouter",
+        "cancel": "Annuler",
+        "valider": "Validé",
+        "upload": "Importer",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "default": "Par défaut",
+        "show": "Voir",
+        "hide": "Masquer",
+        "close": "Fermer",
+        "prev": "Précédent",
+        "next": "Suivant",
+        "completed": "Terminé",
+        "display_all": "Afficher tout",
+        "search": "Chercher",
+        "enable": "Activer",
+        "disable": "Désactiver",
+        "clean": "Vider les champs",
+        "ok": "Ok",
+        "yes": "Oui",
+        "no": "Non",
+        "details": "Voir détails",
+        "showCart": "Voir le panier"
+    },
+    "The email has already been taken": {
+        "": "The email has already been taken."
+    },
+    "The email must be a valid email address": {
+        "": "The email must be a valid email address."
+    },
+    "The password confirmation does not match": {
+        "": "The password confirmation does not match. francais"
+    },
+    "The password must be at least 6 characters": {
+        "": "The password must be at least 6 characters."
+    },
+    "Email Address is a required field": "Email Address is a required field",
+    "Your Password is a required field": "Your Password is a required field",
+    "Your firstname is a required field": "Your firstname is a required field",
+    "Your lastname is a required field": "Your lastname is a required field",
+    "Your phone is a required field": "Your phone is a required field",
+    "password_confirmation is a required field": "password_confirmation is a required field",
+    "Email Address must be a valid email": "Email Address must be a valid email",
+    "unauthenticated": "Email ou Mot de passe incorrect",
+    "email_has_not_verified": "Veuillez vérifier votre boîte mail afin de valider votre inscription",
+    "error_send_verify_email_signup": "error send verify email signup",
+    "messages": {
+        "alpha": "Le champ :field ne peut contenir que des lettres",
+        "alpha_num": "Le champ :field ne peut contenir que des caractères alpha-numériques",
+        "alpha_dash": "Le champ :field ne peut contenir que des caractères alpha-numériques, tirets ou soulignés",
+        "alpha_spaces": "Le champ :field ne peut contenir que des lettres ou des espaces",
+        "between": "Le champ :field doit être compris entre 0::min et 1::max",
+        "confirmed": "Le champ :field ne correspond pas",
+        "digits": "Le champ :field doit être un nombre entier de 0::length chiffres",
+        "dimensions": "Le champ :field doit avoir une taille de 0::width pixels par 1::height pixels",
+        "email": "Le champ :field doit être une adresse e-mail valide",
+        "excluded": "Le champ :field doit être une valeur valide",
+        "ext": "Le champ :field doit être un fichier valide",
+        "image": "Le champ :field doit être une image",
+        "integer": "Le champ :field doit être un entier",
+        "length": "Le champ :field doit contenir 0::length caractères",
+        "max_value": "Le champ :field doit avoir une valeur de 0::max ou moins",
+        "max": "Le champ :field ne peut pas contenir plus de 0::length caractères",
+        "mimes": "Le champ :field doit avoir un type MIME valide",
+        "min_value": "Le champ :field doit avoir une valeur de 0::min ou plus",
+        "min": "Le champ :field doit contenir au minimum 0::length caractères",
+        "numeric": "Le champ :field ne peut contenir que des chiffres",
+        "one_of": "Le champ :field doit être une valeur valide",
+        "regex": "Le champ :field est invalide",
+        "required": "Champ est obligatoire",
+        "required_if": "Le champ :field est obligatoire lorsque :target possède cette valeur",
+        "size": "Le champ :field doit avoir un poids inférieur à 0::sizeKB"
+    },
+    "validation": {
+        "accepted": "The :attribute must be accepted.",
+        "accepted_if": "The :attribute must be accepted when :other is :value.",
+        "active_url": "The :attribute is not a valid URL.",
+        "after": "The :attribute must be a date after :date.",
+        "after_or_equal": "The :attribute must be a date after or equal to :date.",
+        "alpha": "The :attribute must only contain letters.",
+        "alpha_dash": "The :attribute must only contain letters, numbers, dashes and underscores.",
+        "alpha_num": "The :attribute must only contain letters and numbers.",
+        "array": "The :attribute must be an array.",
+        "before": "The :attribute must be a date before :date.",
+        "before_or_equal": "The :attribute must be a date before or equal to :date.",
+        "between": {
+            "numeric": "The :attribute must be between :min and :max.",
+            "file": "The :attribute must be between :min and :max kilobytes.",
+            "string": "The :attribute must be between :min and :max characters.",
+            "array": "The :attribute must have between :min and :max items."
+        },
+        "boolean": "The :attribute field must be true or false.",
+        "confirmed": "The :attribute confirmation does not match.",
+        "current_password": "The password is incorrect.",
+        "date": "The :attribute is not a valid date.",
+        "date_equals": "The :attribute must be a date equal to :date.",
+        "date_format": "The :attribute does not match the format :format.",
+        "declined": "The :attribute must be declined.",
+        "declined_if": "The :attribute must be declined when :other is :value.",
+        "different": "The :attribute and :other must be different.",
+        "digits": "The :attribute must be :digits digits.",
+        "digits_between": "The :attribute must be between :min and :max digits.",
+        "dimensions": "The :attribute has invalid image dimensions.",
+        "distinct": "The :attribute field has a duplicate value.",
+        "email": "The :attribute must be a valid email address.",
+        "ends_with": "The :attribute must end with one of the following: :values.",
+        "enum": "The selected :attribute is invalid.",
+        "exists": "The selected :attribute is invalid.",
+        "file": "The :attribute must be a file.",
+        "filled": "The :attribute field must have a value.",
+        "gt": {
+            "numeric": "The :attribute must be greater than :value.",
+            "file": "The :attribute must be greater than :value kilobytes.",
+            "string": "The :attribute must be greater than :value characters.",
+            "array": "The :attribute must have more than :value items."
+        },
+        "gte": {
+            "numeric": "The :attribute must be greater than or equal to :value.",
+            "file": "The :attribute must be greater than or equal to :value kilobytes.",
+            "string": "The :attribute must be greater than or equal to :value characters.",
+            "array": "The :attribute must have :value items or more."
+        },
+        "image": "The :attribute must be an image.",
+        "in": "The selected :attribute is invalid.",
+        "in_array": "The :attribute field does not exist in :other.",
+        "integer": "The :attribute must be an integer.",
+        "ip": "The :attribute must be a valid IP address.",
+        "ipv4": "The :attribute must be a valid IPv4 address.",
+        "ipv6": "The :attribute must be a valid IPv6 address.",
+        "json": "The :attribute must be a valid JSON string.",
+        "lt": {
+            "numeric": "The :attribute must be less than :value.",
+            "file": "The :attribute must be less than :value kilobytes.",
+            "string": "The :attribute must be less than :value characters.",
+            "array": "The :attribute must have less than :value items."
+        },
+        "lte": {
+            "numeric": "The :attribute must be less than or equal to :value.",
+            "file": "The :attribute must be less than or equal to :value kilobytes.",
+            "string": "The :attribute must be less than or equal to :value characters.",
+            "array": "The :attribute must not have more than :value items."
+        },
+        "mac_address": "The :attribute must be a valid MAC address.",
+        "max": {
+            "numeric": "The :attribute must not be greater than :max.",
+            "file": "The :attribute must not be greater than :max kilobytes.",
+            "string": "The :attribute must not be greater than :max characters.",
+            "array": "The :attribute must not have more than :max items."
+        },
+        "mimes": "The :attribute must be a file of type: :values.",
+        "mimetypes": "The :attribute must be a file of type: :values.",
+        "min": {
+            "numeric": "The :attribute must be at least :min.",
+            "file": "The :attribute must be at least :min kilobytes.",
+            "string": "The :attribute must be at least :min characters.",
+            "array": "The :attribute must have at least :min items."
+        },
+        "multiple_of": "The :attribute must be a multiple of :value.",
+        "not_in": "The selected :attribute is invalid.",
+        "not_regex": "The :attribute format is invalid.",
+        "numeric": "The :attribute must be a number.",
+        "password": "The password is incorrect.",
+        "present": "The :attribute field must be present.",
+        "prohibited": "The :attribute field is prohibited.",
+        "prohibited_if": "The :attribute field is prohibited when :other is :value.",
+        "prohibited_unless": "The :attribute field is prohibited unless :other is in :values.",
+        "prohibits": "The :attribute field prohibits :other from being present.",
+        "regex": "The :attribute format is invalid.",
+        "required": "The :attribute field is required.",
+        "required_array_keys": "The :attribute field must contain entries for: :values.",
+        "required_if": "The :attribute field is required when :other is :value.",
+        "required_unless": "The :attribute field is required unless :other is in :values.",
+        "required_with": "The :attribute field is required when :values is present.",
+        "required_with_all": "The :attribute field is required when :values are present.",
+        "required_without": "The :attribute field is required when :values is not present.",
+        "required_without_all": "The :attribute field is required when none of :values are present.",
+        "same": "The :attribute and :other must match.",
+        "size": {
+            "numeric": "The :attribute must be :size.",
+            "file": "The :attribute must be :size kilobytes.",
+            "string": "The :attribute must be :size characters.",
+            "array": "The :attribute must contain :size items."
+        },
+        "starts_with": "The :attribute must start with one of the following: :values.",
+        "string": "The :attribute must be a string.",
+        "timezone": "The :attribute must be a valid timezone.",
+        "unique": "The :attribute has already been taken.",
+        "uploaded": "The :attribute failed to upload.",
+        "url": "The :attribute must be a valid URL.",
+        "uuid": "The :attribute must be a valid UUID.",
+        "custom": {
+            "attribute-name": {
+                "rule-name": "custom-message"
+            }
+        },
+        "attributes": [],
+        "status401": "Unauthentificated",
+        "status403": "email has not verified",
+        "status422": {
+            "email": "The email has already been taken."
+        }
+    }
+}

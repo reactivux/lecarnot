@@ -1,0 +1,179 @@
+#card-element {
+    width: 100%;
+    padding: 17px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    background: #ffffff;
+    border: 1px solid #ff7c0845;
+    border-radius: 4px;
+}
+
+.error {
+    color: $colorError;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+.checkout_loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffffc2;
+    z-index: 1024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout_loader img {
+    width: 200px;
+    height: auto;
+}
+
+.checkout_loader p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tf__check_form {
+    h5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $hrBorderColor;
+
+    }
+
+    .tf__check_single_form {
+        margin-bottom: 25px;
+
+
+    }
+
+    .nice-select {
+        border: 1px solid #eee !important;
+        padding: 12px 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.card-content {
+    border: 1px solid #eeeeeea6;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    background: $SectionSecondaryBgColor;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    &.actif {
+        background: #A8FFAF;
+    }
+
+    .form-check {
+        padding-left: 0;
+    }
+
+    ul {
+        display: flex;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        li {
+            a {
+                width: 27px;
+                height: 27px;
+                line-height: 25px;
+                background: #ffffff;
+                color: $PrimaryColor !important;
+                border: 1px solid $PrimaryColor;
+                font-size: 12px;
+                text-align: center;
+                margin: 3px;
+                border-radius: 50%;
+                transition: all linear 0.3s;
+                cursor: pointer;
+                -webkit-transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+
+                &:hover {
+                    background: $PrimaryColor;
+                    color: #ffffff !important;
+                }
+            }
+        }
+    }
+
+    // span {
+    //     color: $whiteColor;
+    // }
+}
+
+.form-check {
+    input {
+        margin-right: 15px;
+        padding: 0;
+        border-color: $PrimaryColor;
+        margin-left: 0;
+
+        &:checked {
+            background-color: $PrimaryColor;
+            border-color: $PrimaryColor;
+        }
+    }
+
+    label {
+        display: block;
+        width: 100%;
+        cursor: pointer;
+
+        .icon {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            color: $whiteColor;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+
+        .address {
+            margin-top: 10px;
+            display: block;
+            border-top: 1px solid $hrBorderColor;
+            padding-top: 10px;
+        }
+    }
+}
+
+.box_booking {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background-color: $SectionSecondaryBgColor;
+    
+    border: none !important;
+    padding: 25px;
+
+    p,
+    b,
+    span {
+        color: $blackColor;
+    }
+}

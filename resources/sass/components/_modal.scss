@@ -1,0 +1,137 @@
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.modal-content {
+    border-radius: 10px !important;
+    box-shadow: 0 2px 20px 12px #0003 !important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: $SectionSecondaryBgColor;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+
+
+}
+
+/**
+ * Modal 
+ **/
+.closeModal {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.blocAddToCart {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.modal-dialog {
+    justify-content: center;
+}
+
+.header-modal {
+    padding: 15px;
+}
+
+.modal-dialog.modal-lg {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.modal-footer {
+    background: #c32828;
+}
+
+.modal-footer button {
+    background: white;
+    color: black;
+    width: 9em;
+    border-radius: 0.35em;
+}
+
+.modal h1 {
+    font-size: 20px;
+}
+
+.modal img {
+    
+    margin: 0 auto;
+    object-fit: contain;
+
+    background-image: url('../../../public/img/bg-product.webp');
+        background-size: 98%;
+        background-repeat: no-repeat;
+        background-position: center center;
+   
+} 
+
+.modal {
+    display: block;
+    background: #09090959;
+}
+
+.modal-open {
+    overflow: hidden !important;
+}
+
+
+/** responsive */
+@media (min-width: 576px) {
+    .modal-sm {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 960px) and (min-width: 800px) {
+    .modal-dialog.modal-lg {
+        max-width: 760px;
+    }
+}
+
+@media (max-width: 799px) and (min-width: 650px) {
+    .modal-dialog.modal-lg {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 649px) and (min-width: 550px) {
+    .modal-dialog.modal-lg {
+        max-width: 540px;
+    }
+}
+
+@media (max-width: 549px) and (min-width: 450px) {
+    .modal-dialog.modal-lg {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 449px) and (min-width: 350px) {
+    .modal-dialog.modal-lg {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 349px) {
+    .modal-dialog.modal-lg {
+        max-width: 340px;
+    }
+}

@@ -1,0 +1,22 @@
+.item-table {
+    width: 29.33%;
+    height: auto;
+    background: $PrimaryColor;
+    color: #fff;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-tables {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-table p {
+    color: #fff;
+    margin-top: 8px;
+}

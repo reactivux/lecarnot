@@ -1,0 +1,2 @@
+<img id="<?php echo e($id); ?>" data-src="<?php echo e($src); ?>" src="<?php echo e($placeholder); ?>" class="lazy <?php echo e($class); ?>" alt="<?php echo e($alt); ?>">
+<?php /**PATH F:\1- Work\1 - Scalax\1- Livcollect\Client customize website\1 - Clients\LeCarnot\resources\views/components/lazyimage.blade.php ENDPATH**/ ?>

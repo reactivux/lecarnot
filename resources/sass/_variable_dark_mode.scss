@@ -1,0 +1,168 @@
+// @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+/*
+Font family 
+*/
+$fontFamilyPrimary : "Rubik";
+$fontFamilySecondary: 'Raleway';
+
+/*
+* Heading Size 
+**/
+// min width 992 
+$h1-banner-size-min-width-992 : 37pt;
+$h1-size-min-width-992 : 37pt;
+$h2-left-size-min-width-992 : 50px;
+$h2-right-size-min-width-992 : 35px;
+$h2-center-size-min-width-992 : 40px;
+$h3-size-min-width-992 : 16px;
+$h4-size-min-width-992 : 16px;
+$h5-size-min-width-992 : 17px;
+$h6-size-min-width-992 : 18px;
+$subtitle-size-min-width-992 : 16px;
+$text-size-min-width-992 : 16px;
+// min width 768
+$h1-banner-size-min-width-768 : 29pt;
+$h1-size-min-width-768 : 44px;
+$h2-left-size-min-width-768 : 30px;
+$h2-right-size-min-width-768 : 30px;
+$h2-center-size-min-width-768 : 30px;
+$h3-size-min-width-768 : 15px;
+$h4-size-min-width-768 : 15px;
+$h5-size-min-width-768 : 16px;
+$h6-size-min-width-768 : 18px;
+$subtitle-size-min-width-768 : 15px;
+$text-size-min-width-768 : 15px;
+// min width 576
+$h1-banner-size-min-width-576 : 27pt;
+$h1-size-min-width-576 :35px;
+$h2-left-size-min-width-576 : 35px;
+$h2-right-size-min-width-576 : 35px;
+$h2-center-size-min-width-576 : 40px;
+$h3-size-min-width-576 : 14px;
+$h4-size-min-width-576 : 14px;
+$h5-size-min-width-576 : 15px;
+$h6-size-min-width-576 : 18px;
+$subtitle-size-min-width-576 : 12px;
+$text-size-min-width-576 : 14px;
+// min width 0
+$h1-banner-size-min-width-0 : 22pt;
+$h1-size-min-width-0 : 32px;
+$h2-left-size-min-width-0 : 25px;
+$h2-right-size-min-width-0 : 25px;
+$h2-center-size-min-width-0 : 25px;
+$h3-size-min-width-0 : 14px;
+$h4-size-min-width-0 : 14px;
+$h5-size-min-width-0 : 14px;
+$h6-size-min-width-0 : 18px;
+$subtitle-size-min-width-0 : 12px;
+$text-size-min-width-0 : 13px;
+/** ================================== Dark Mode ================================== **/
+/** ======= Body bg color ======= **/
+$bodyBgColor : #000;
+/**  ======= Primary, secondary, tertiary ======= **/
+$PrimaryColor: #ff4846;
+$SecondaryColor: #252526;
+$TertiaryColor : #252525;
+/** ======= colors  ======= **/
+$whiteColor : #FFFFFF;
+$blackColor : #0D1011;
+$textColor : #d7d7d7;
+$hrefColor : #ff4846;
+$colorError : #ddd;
+$colorRed : #E80009;
+$colorGreen : #6F9B00;
+/** ======= CTA ======= **/
+$ctaTextColor : #252526;
+$ctaBgColor : #ff4846;
+$ctaHoverColor : #000;
+$ctaTextHoverColor : #FFFFFF;
+$ctaBgHoverColor : #000000;
+$ctaHoverTextColor : #FFFFFF;
+/** ======= NAV BAR ======= **/
+$BgColorNavbarFixed : #000;
+$ColorNavLinkFixed : #FFFFFF;
+$BgColorNavbar : #000;
+$ColorNavLink : #FFFFFF;
+$HoverColorNavLink : #252526;
+$HoverColorBorderBottomNavLink : #ff4846;
+/** ======= FOOTER ======= **/
+$footerBgColor : #151515;
+$hrBorderColor : #252526;
+$footerTitleColor : #d7d7d7;
+$footerTextColor : #d7d7d7;
+/** ======= Tables ======= **/
+$TableBgColor : #404040;
+$TableHoverBgColor : #515151;
+$TableTextColor : #ffffff;
+$delivered : #00c400;
+$canceled : #ff4846;
+$pending : #ff8a66;
+$accepted : #ffffff;
+$statusBgColor : #000;
+/** ======= banner / sliders ======= **/
+$bannerBgColor : #000;
+$bannerH1Color : #ffffff;
+$bannerH2Color : #ffffff;
+$bannerTextColor : #ffffff;
+/** =======  Primary Sections  ======= **/
+$SectionPrimaryBgColor : #000;
+$SectionPrimaryH1Color : #FFFFFF;
+$SectionPrimaryH2Color : #FFFFFF;
+$SectionPrimaryH3Color : #FFFFFF;
+$SectionPrimaryH4Color :#FFFFFF;
+$SectionPrimaryH5Color : #FFFFFF;
+$SectionPrimaryH6Color : #FFFFFF;
+$SectionPrimarySubTitleColor :#FFFFFF;
+$SectionPrimaryTextColor : #d7d7d7;
+/** =======  Secondary Sections  ======= **/
+$SectionSecondaryBgColor : #ff4846;
+$SectionSecondaryH1Color : #FFFFFF;
+$SectionSecondaryH2Color : #FFFFFF;
+$SectionSecondaryH3Color : #FFFFFF;
+$SectionSecondaryH4Color :#FFFFFF;
+$SectionSecondaryH5Color : #FFFFFF;
+$SectionSecondaryH6Color : #FFFFFF;
+$SectionSecondarySubTitleColor :#FFFFFF;
+$SectionSecondaryTextColor : #d7d7d7;
+/** ======= Card Products ======= **/
+$ProductPrimaryBgColor : #000;
+$ProductSecondaryBgColor : #ff4846;
+$productTitleColor : #FFFFFF;
+$productDesColor : #FFFFFF;
+$productPriceColor : #faff75;
+$bgCheckedElementPrimary: orange;
+$bgCheckedElementSecondary: orange;
+$btnQteMinusPlusCart: orange;
+
+/** ======= Icons color ======= **/
+$socialMediaIconsColor : #FFFFFF;
+$footerIconsColor : #FFFFFF;
+$formContactIconsColor : #252526;
+$servicesIconsColor : #252526;
+$crudIconsColor : #FFFFFF;
+$navbarDesktopIconsColor : #000;
+$navbarMobileIconsColor : #FFFFFF;
+$closeIconsColor : #FFFFFF;
+$readMoreIconsColor : #000;
+/** ======= select option ======= **/
+$textSelectOption : #000;
+/*** ======= Section contact ======= **/
+$SectionContactbgColor : #ff4846;
+$ContactItemTitleColor : #FFFFFF;
+$ContactItemTextColor : #d7d7d7;
+$ContactBorderItemIconColor : #FFFFFF;
+$ContactItemIconColor : #FFFFFF;
+/*** ======= Section values or services ======= **/
+$SectionServicesbgColor : #ff4846;
+$ServicesbgColor : #ff4846;
+$ServicesHoverbgColor : #252526;
+$ServicesH3Color : #ffffff;
+$ServicesHoverH3Color : #ffffff;
+$ServicesTextColor : #d7d7d7;
+$ServicesHoverTextColor : #ff4846;
+$ServicesIconColor : #ffffff;
+$ServicesHoverIconColor : #ff4846;
+/** ================================== END Dark Mode ================================== **/

@@ -1,0 +1,126 @@
+/***Planified input **/
+.radio_select ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.radio_select ul li {
+    display: inline-block;
+    margin: 0;
+    width: 23.5%;
+}
+
+.radio_select.chose_day ul li {
+    width: 43.5%;
+}
+
+.radio_select input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio_select label {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    border: 1px dotted #000;
+    background-color: #fbfbfb;
+    font-size: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.radio_select label em {
+    display: block;
+    color: $SecondaryColor;
+    font-style: normal;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+}
+
+.radio_select label:hover {
+    background-color: $PrimaryColor; 
+}
+
+.radio_select input[type="radio"]:checked+label {
+    border: 1px solid transparent;
+    background-color: $PrimaryColor;
+    color: #fff;
+}
+
+.radio_select input[type="radio"]:checked+label em {
+    color: #fff !important;
+}
+
+.dropdown {
+    border: 1px solid #ddd !important;
+    padding: 0;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.dropdown a {
+    padding: 15px 15px 12px;
+    line-height: 1;
+    color: #444;
+    font-weight: 500;
+    display: block;
+    position: relative;
+}
+
+.dropdown a:after {
+    font-family: food;
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.dropdown.show a {
+    color: #333;
+}
+
+.dropdown.show a:after {
+    transform: rotateY(360deg);
+    color: #333;
+}
+
+.dropdown .dropdown-menu {
+    font-size: 14px;
+    font-size: 0.875rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.dropdown .dropdown-menu h4 {
+    text-align: center;
+    font-size: 14px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.dropdown.time {
+    margin-bottom: 25px;
+}
+
+/** end planified **/

@@ -1,0 +1,38 @@
+.tf__notfound {
+    height: 100vh;
+    padding-top: 130px;
+
+    div {
+        height: 100%;
+    }
+}
+
+.tf__notfound_text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+        height: auto !important;
+        width: 150px !important;
+    }
+
+    h2 {
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+
+    p {
+        margin: 10px 0px 20px 0px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+
+    }
+}

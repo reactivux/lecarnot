@@ -1,0 +1,334 @@
+ .labelAddToCart { 
+     font-size: 15px;
+ }
+
+
+ .cursorNoDrop {
+     cursor: no-drop;
+ }
+
+
+
+ label {
+     font-size: 14px;
+     font-weight: 400;
+     //  color: #6e6e6e;
+ }
+
+
+
+ .sub-products {
+     &-scroll {
+         overflow-y: auto;
+         overflow-x: hidden;
+         height: 80vh;
+     }
+
+     .groupContent {
+         margin-bottom: 25px;
+
+         .groupName {
+             font-size: 20px;
+             line-height: 1.4;
+             font-weight: 700;
+             color: $blackColor;
+         }
+
+         .groupRequired {
+             font-size: 10px;
+             color: $blackColor;
+             background: $PrimaryColor;
+             border-radius: 4px;
+             padding: 2px 5px;
+             margin-left: 5px;
+         }
+     }
+
+     .elementRadio {
+         label {
+             margin-bottom: 20px;
+             display: block;
+             cursor: pointer;
+             margin-bottom: 20px;
+             display: block;
+             cursor: pointer;
+             text-transform: capitalize;
+             font-size: 14px;
+             font-weight: 400;
+             // color: #484747;
+         }
+
+         input {
+             display: none;
+
+             &:not([type="submit"]) {
+                 border-style: none;
+                 outline: none;
+                 min-height: 2em;
+                 width: 100%;
+                 border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+                 list-style-type: none;
+                 border-radius: unset !important;
+                 padding: 8px 14px;
+             }
+         }
+
+         .checked {
+             label {
+                 color: $blackColor;
+             }
+         }
+     }
+
+     .elementCheckbox {
+         label {
+             margin-bottom: 20px;
+             display: block;
+             cursor: pointer;
+             margin-bottom: 20px;
+             display: block;
+             cursor: pointer;
+         }
+
+         input {
+             display: none;
+
+             &:not([type="submit"]) {
+                 border-style: none;
+                 outline: none;
+                 min-height: 2em;
+                 width: 100%;
+                 border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+                 list-style-type: none;
+                 border-radius: unset !important;
+                 padding: 8px 14px;
+             }
+         }
+
+         // .checked {
+         //     border: 2px solid #bd0d66;
+         // }
+
+         .checkboxDisabled {
+             color: #9a9a9a !important;
+             background-color: #5e5e5e !important;
+         }
+     }
+
+     .divPlusMines {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px 10px 10px 25px;
+         border: 1px solid #ddd;
+         border-radius: 5px;
+         position: relative;
+         margin-bottom: 20px;
+         // color: $whiteColor;
+
+
+     }
+
+     .checkboxColor {
+         span {
+             display: block;
+             padding: 10px 10px 10px 25px;
+             border: 1px solid #ddd;
+             border-radius: 5px;
+             position: relative;
+             transition: all 0.25s linear;
+             // color: $whiteColor;
+
+             &.checked {
+                 background: $PrimaryColor;
+                 color: $blackColor  !important;
+
+                 &:before {
+                     content: "\2713" !important;
+                     color: $blackColor !important;
+                 }
+             }
+
+             &:before {
+                 content: "\2717";
+                 position: absolute;
+                 right: 10px;
+                 transition: all 0.25s linear;
+                 font-size: 20px;
+                 font-weight: 900;
+                 color: #ff7a7a;
+             }
+         }
+
+         .red {
+             input {
+                 &:checked {
+                     &+span {
+                         color: $blackColor;
+                         border-color: $PrimaryColor;
+                     }
+                 }
+             }
+         }
+
+         input {
+             &:checked {
+                 &+span {
+                     background-color: $blackColor;
+                     border: 0.125rem solid $PrimaryColor;
+                 }
+             }
+         }
+     }
+
+     .radioColor {
+         span {
+             display: block;
+             padding: 10px 10px 10px 25px;
+             border: 1px solid #ddd;
+             border-radius: 5px;
+             position: relative;
+             transition: all 0.25s linear;
+         }
+
+         .checked {
+             border-color: $PrimaryColor;
+             color: $blackColor !important;
+             background: $PrimaryColor;
+             box-shadow: 0 0 5px 2px #0000001a;
+         }
+
+     }
+
+
+ }
+
+ .producInfo {
+     .blocAddToCart {
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+         margin: 0 auto;
+
+         .btnAddToCart {
+             label {
+                 cursor: pointer !important;
+             }
+         }
+     }
+
+     .producInfo {
+         img {
+             width: 220px !important;
+             height: auto !important;
+             margin: 0 auto;
+         }
+     }
+
+     .content {
+         overflow-y: scroll;
+         overflow: scroll;
+         scrollbar-width: none;
+         /* For Firefox */
+     }
+
+     .content::-webkit-scrollbar {
+         display: none;
+         /* For Chrome, Safari, and other WebKit browsers */
+     }
+
+     // p {
+     //     color: $whiteColor;
+     // }
+
+     span {
+         text-transform: lowercase;
+         // color: $whiteColor;
+     }
+
+
+
+ }
+
+ .btnPlusMines {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     .btnQte {
+         width: 24px;
+         height: 24px;
+         border-radius: 100%;
+         display: flex;
+         justify-content: center;
+         place-items: center;
+         padding: 0px;
+         cursor: pointer;
+         background-color: $PrimaryColor;
+         font-weight: 600;
+         color: $blackColor;
+     }
+
+     .btnDisabled {
+         color: #9a9a9a !important;
+         background-color: #5e5e5e !important;
+     }
+
+     .QteProduct {
+         margin: 0px 10px;
+         font-weight: 600;
+         // color: gray;
+     }
+ }
+
+
+
+ .single-product {
+     .single-product-content {
+         .title {
+             // color: $whiteColor;
+         }
+
+         .description {
+             // color: $whiteColor;
+         }
+
+         .price {
+             // color: $whiteColor;
+             font-size: 24px;
+             font-weight: 800;
+             line-height: 1.0416666667;
+             text-transform: uppercase;
+         }
+     }
+ }
+
+
+ @media screen and (min-width : 0px) {
+     .producInfo {
+         .content {
+             height: auto;
+         }
+     }
+ }
+
+ @media screen and (min-width : 768px) {
+     .producInfo {
+         .content {
+             height: 50vh;
+         }
+     }
+
+     .sub-products.col-md-8 {
+         flex: 0 0 auto;
+         width: 66.66666667%;
+         overflow: scroll;
+         scrollbar-width: none;
+         /* For Firefox */
+     }
+
+     .sub-products.col-md-8::-webkit-scrollbar {
+         display: none;
+         /* For Chrome, Safari, and other WebKit browsers */
+     }
+ }

@@ -1,0 +1,33 @@
+.tf__pagination {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            a {
+                width: 50px;
+                height: 50px;
+                padding: 0;
+                line-height: 50px;
+                text-align: center;
+                font-size: 16px;
+                background: #ffffff;
+                color: #484747 !important;
+                margin: 0px 15px;
+                border-radius: 50% !important;
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+.tf__pagination ul li a:hover,
+.tf__pagination ul li.active a {
+    background: $PrimaryColor;
+    color: #ffffff !important;
+    border-color: $PrimaryColor;
+}

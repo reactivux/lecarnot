@@ -1,0 +1,62 @@
+/***  filter delivery ***/
+.tf__menu_search_area {
+
+    border-radius: 0;
+    margin-bottom: 15px;
+
+    .tf__menu_search {
+        input {
+            border: 1px solid #ddd !important;
+            border-radius: 10px;
+        }
+    }
+
+
+    .deliveryMode {
+        transition: 0.2s;
+        z-index: 9;
+
+        &.fixedTop {
+            top: 0px !important;
+            transition: 0.2s;
+        }
+
+        &>div {
+            border-radius: 500px;
+            padding: 5px;
+            -moz-box-align: center;
+            align-items: center;
+            display: flex;
+            background: $SecondaryColor;
+            white-space: nowrap;
+            height: 44px;
+            width: 100%;
+        }
+
+        .type {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: #ffffff;
+            cursor: pointer;
+            width: 50% !important;
+
+            &.active {
+                background: $PrimaryColor;
+                border-radius: 500px;
+                color: #ffffff;
+            }
+        }
+
+        .deliveryIcon {
+            font-size: 22px;
+            margin-right: 10px;
+        }
+
+        .titre {
+            font-size: 14px;
+        }
+    }
+}

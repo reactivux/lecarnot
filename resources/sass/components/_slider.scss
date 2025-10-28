@@ -1,0 +1,339 @@
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 1;
+}
+ 
+
+.hero-overlay {
+    position: absolute;
+    background: rgb(0 0 0 / 67%);
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; 
+}
+
+.bg-header-3 {
+    background: {
+        position: 50%;
+        repeat: no-repeat;
+        size: cover;
+    }
+
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.tf__custom_banner {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: $bannerBgColor !important;
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-color: $PrimaryColor;
+    //     transform-origin: top right;
+    //     transform: skewY(-40deg);
+    //     z-index: 0;
+
+    //     z-index: 1;
+    // }
+
+    .col-img {
+        margin: 0 auto;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .col-text {
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .tf__custom_banner_overlay {
+        height: 100%;
+        position: relative;
+       
+
+        .banner_content_text {
+            padding-top: 80px;
+
+            .banner_txt {
+                position: relative;
+
+                .banner_p {
+                    position: relative;
+                    z-index: 1; 
+                    max-width: 1024px;
+                    margin: 0 auto;
+
+                    p {
+                        font-family: $fontFamilySecondary !important;
+                        font-size: 18px;
+                        color: $bannerTextColor !important;
+                    }
+                }
+
+                .banner_h1 {
+                    h1 {
+                        font-weight: 700;
+                        font-size: 56px;
+                        color: $bannerH1Color !important;
+                        font-family: $fontFamilyHero !important;
+                    }
+                }
+
+                .banner_h2 {
+                    position: relative;
+                    z-index: 2;
+
+                    h1 {
+                        font-family: $fontFamilyHero !important;
+                        font-weight: 700;
+                        // color: $bannerH2Color !important;
+                        text-transform: uppercase;
+                        position: relative;
+                        z-index: 2;
+                        span {
+                            font-family: $fontFamilyHero !important;
+                                font-weight: 700;
+                                text-transform: uppercase;
+                                position: relative;
+                                z-index: 2;
+                        }
+                    }
+
+                    h2 {
+                        .primary_color {
+                            color: $whiteColor;
+                            font-family: $fontFamilySecondary !important;
+                            font-weight: 700;
+                            font-size: 46px;
+                        }
+                    }
+                }
+            }
+
+            .banner_img {
+                z-index: 9;
+                position: relative;
+            }
+        }
+
+    }
+
+    .slider-img {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+
+        .carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            z-index: 99;
+
+            .carousel-track {
+                display: flex;
+                width: max-content;
+                animation: scroll-left 25s linear infinite;
+
+                img {
+                    height: 45px;
+                    width: auto;
+                    margin-right: 40px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media (min-width: 0px) {
+    .tf__custom_banner_overlay {
+
+        .banner_content_text {
+            padding-top: 0px !important;
+        }
+
+    }
+
+
+    .tf__custom_banner {
+        .banner_img-width {
+            width: 100%;
+            margin-top: 60px !important;
+        }
+
+        &::before {
+            content: "";
+            transform-origin: top right;
+            transform: skewY(-40deg);
+
+        }
+
+
+        .slider-img {
+            bottom: -40px;
+
+            .carousel {
+
+                .carousel-track {
+
+                    img {
+                        height: 25px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .tf__custom_banner {
+        height: 80vh;
+
+        .banner_img-width {
+            width: 100%;
+            margin-top: 55px !important;
+        }
+
+        &::before {
+            transform-origin: top right;
+            transform: skewY(-40deg);
+
+
+            z-index: 1;
+        }
+
+        .slider-img {
+            bottom: 25px;
+
+            .carousel {
+                width: 100%;
+
+                .carousel-track {
+                    img {
+                        height: 35px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    .tf__custom_banner {
+        height: 95vh;
+
+
+
+        &::before {
+            transform-origin: top right;
+            transform: skewY(-40deg);
+
+            z-index: 1;
+        }
+
+        .slider-img {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+
+            .carousel {
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                z-index: 99;
+
+                .carousel-track {
+                    display: flex;
+                    width: max-content;
+                    animation: scroll-left 25s linear infinite;
+
+                    img {
+                        height: 40px;
+                        width: auto;
+                        margin-right: 40px;
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .tf__custom_banner_overlay {
+
+        .banner_content_text {
+            padding-top: 80px !important;
+        }
+
+    }
+
+    .tf__custom_banner {
+        height: 100vh;
+
+        .slider-img {
+
+            bottom: 25px;
+
+            .carousel {
+
+                .carousel-track {
+
+                    img {
+                        height: 45px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+// Keyframes
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
