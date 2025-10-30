@@ -18,13 +18,7 @@
                     : work_time.libel
                     }}
                 </span>
-            </div>
-            <div class="time_item">
-                <strong class="text-color days">Jours fériés : </strong>
-                <span class="text-color  " >
-                    18:00 - 23:00
-                </span>
-            </div>
+            </div> 
         </div>
     </div>
 

@@ -13,7 +13,7 @@
                         </div>
                         <div class="feature-card feature-card-content">
                             <p class="text content-description">
-                                Des produits frais, des recettes maison et un goût unique qui te rappellent le vrai
+                                Des produits frais, des recettes maison et un goût unique qui vous rappellent le vrai
                                 plaisir de bien manger.
                             </p>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="feature-card feature-card-content">
                             <p class="text content-description">
                                 Commande en ligne et reçois ton repas chaud et croustillant en un rien de temps, où que
-                                tu sois à Le Neubourg !
+                                tu sois au Neubourg !
                             </p>
                         </div>
                     </div>

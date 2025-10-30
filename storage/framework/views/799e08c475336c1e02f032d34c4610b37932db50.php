@@ -6,17 +6,17 @@
                      <h2 class="title title-h2 title-h2-center">ZONES DE LIVRAISON</h2>
                 </div>
                 <p class="text">
-                    - Minimun de la commande en livraison : 15€
+                    - Minimum de la commande en livraison : 15€
                 </p>
                 <p class="text">
-                    - Livraison sur <strong>Rayon</strong> de 10Km, commande à partir de 35€
+                    - Livraison sur <strong>Rayon</strong> de 10 Km, commande à partir de 35€
                 </p>
                 <p class="text">
-                    - Pour d'autres zones au-delà n'hésites pas à téléphoner
+                    - Pour d'autres zones au-delà n’hésite pass à téléphoner
                 </p>
                 <p class="text">
                     - Jusqu'à trois tickets restaurants acceptés, pas de chèque
-                    la carte de fidélité pas aaceptée en livraison
+                    la carte de fidélité pas acceptée en livraison
                 </p>
                 <div class="contact-info ">
                     <div class="contact-item">
